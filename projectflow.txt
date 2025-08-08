@@ -6,3 +6,4 @@ we do dvc.init (it creates .dvcignore, .dvc)
 5. Now do 'mkdir S3' (create a new S3 directory).
 6. dvc remote add -d myremote S3
 7. Do dvc add data/
+8. Now do dvc commit and then dvc push
